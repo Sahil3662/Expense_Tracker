@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="expense.css">
+</head>
+<body>
+<main class="container">
+<h1 class="expense-title"> Expense Tracker</h1>
+
+<div class="balance">
+    <p>My balance</p>
+    <h1>&#8377;<span id="balance">0000</span></h1>
+</div>
+
+<div class="inc-exp-container" >
+    <div class="income">
+    <p>Income</p>
+    <h2>&#8377;<span id="income">0000</span></h2> 
+    </div>
+    <div class="expense">
+        <p>Expense</p>
+        <h2>&#8377;<span id="expense">0000</span></h2> 
+        </div>
+</div>
+
+<div id="history">
+    <h4 class="title-history">History</h4>
+    <div id="historyBox"></div>
+    
+    <div id="delete">
+        <button id="show" onclick="showHistory()"><i class="fa-solid fa-eye"></i></button>&nbsp; &nbsp;
+        &nbsp;<button id="none" onclick="deleteHistory()"><i class="fa fa-trash-o"
+                aria-hidden="true"></i></button>
+
+    </div>
+
+</div>
+<hr>
+<div class="Transection">
+    <h2 class="transection-title">Add New Transcation</h2>
+    <div class="for-text">
+       <div>Text</div> 
+        <input type="text" name id="text" placeholder="Enter Text..">
+    </div>
+    <div class="for-amount">
+        <div>
+        <div>Amount</div>
+            <small>(negative-expense, positive-income)</small>
+        </div>
+        <input type="text" name id="amount"  placeholder="Enter Amount..">
+    </div>
+       <div id="sumbit" type="button" onclick="addTransaction()"> Add Transcation</div>
+</div>
+</main>
+<script src="expense.js"> </script>
+</body>                                                                                                                 
+</html>

@@ -1,0 +1,72 @@
+.container {
+    width: 30%;
+    font-family: 'Acme', sans-serif;
+    text-align: center;
+    margin: 0 34%; 
+}
+
+.expense-title {
+    font-size: 2rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.balance {
+        text-align: left;
+        font-size: 19px;
+}
+.inc-exp-container{
+    justify-content: space-evenly;
+    box-shadow: rgb(179,179,179) 1px 1px 10px;
+    display: flex;
+    background-color: white;
+}
+#income {
+    color: #0ee00e ;
+}
+
+#expense {
+    color: red;
+    font-size: 24px;
+}
+#history{
+    text-align: left;
+    display: flex;
+}
+
+.Transection{
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+    
+}
+.transection-title {
+    font-size: 20px;
+ }
+
+ .Transection input{
+        width: 90%;
+        font-size: 1.1rem;
+        padding: 5px 1em;
+        margin: 0.5em;
+        margin-left: auto;
+        border: 1px solid rgb(207, 207, 207);
+    
+ }
+ .for-amount input{
+    width: 90%;
+    font-size: 1.1rem;
+    padding: 5px 1em;
+    height: 2 rem;
+    margin: 1em;
+    margin-left: auto;
+    border: 1px solid rgb(207, 207, 207);
+ }
+ #sumbit{
+        width: 90%;
+        background-color: rgb(65, 170, 189);
+        color: aliceblue;
+        text-align: center;
+        padding: 1em 1em;
+        cursor: pointer;
+    
+ }
