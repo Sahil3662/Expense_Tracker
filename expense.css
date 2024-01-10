@@ -30,7 +30,7 @@
 }
 #history{
     text-align: left;
-    display: flex;
+    display: block;
 }
 
 .Transection{
@@ -70,3 +70,11 @@
         cursor: pointer;
     
  }
+#show{
+    width: 60px;
+    height: 20px;
+}
+#deletee{
+    width: 60px;
+    height: 20px;
+}
