@@ -4,8 +4,6 @@ var inputAmt = document.getElementById('amount');
 var inputText = document.getElementById('text');
 var balanceVal = document.getElementById('balance');
 
-
-
 function addTransaction()
 {
     if(inputAmt.value > 0)
@@ -29,7 +27,6 @@ function addTransaction()
         balanceVal.innerText = balance;
 
     }
-    showHistory()
 }
 
 function showHistory()
@@ -37,8 +34,7 @@ function showHistory()
     var name = inputText.value;
     var amt = inputAmt.value;
     historyBox.innerHTML += `<div class="his">
-                            <h1>${name}</h1>
-                            <h1>${amt}</h1>
+                            <h1>${name}-${amt}</h1>
                         </div>`;
 }
 
