@@ -71,19 +71,21 @@
 }
 #show{
     width: 30%;
-    height: 10px;
+    height: 70px;
     background-color: rgb(65, 170, 189);
     color: aliceblue;
     text-align: center;
     padding: 5px 5px;
+    margin-top: 10px;
     cursor: pointer;
 }
 #none{
     width: 30%;
-    height:10px;
+    height:70px;
     background-color: rgb(65, 170, 189);
     color: aliceblue;
     text-align: center;
     padding: 5px 5px;
+    margin-top: 10px;
     cursor: pointer;
 }
