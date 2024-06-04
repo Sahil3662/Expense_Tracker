@@ -76,6 +76,7 @@
     color: aliceblue;
     text-align: center;
     padding: 1em 1em;
+    margin-top: 15px;
     cursor: pointer;
 }
 #none{
@@ -84,6 +85,7 @@
     background-color: rgb(65, 170, 189);
     color: aliceblue;
     text-align: center;
+    margin-top: 15px;
     padding: 1em 1em;
     cursor: pointer;
 }
