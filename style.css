@@ -68,5 +68,20 @@
         text-align: center;
         padding: 1em 1em;
         cursor: pointer;
-    
- }
+}
+#show{
+    width: 30%;
+    background-color: rgb(65, 170, 189);
+    color: aliceblue;
+    text-align: center;
+    padding: 1em 1em;
+    cursor: pointer;
+}
+#none{
+    width: 30%;
+    background-color: rgb(65, 170, 189);
+    color: aliceblue;
+    text-align: center;
+    padding: 1em 1em;
+    cursor: pointer;
+}
