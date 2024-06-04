@@ -71,6 +71,7 @@
 }
 #show{
     width: 30%;
+    height: 20%;
     background-color: rgb(65, 170, 189);
     color: aliceblue;
     text-align: center;
@@ -79,6 +80,7 @@
 }
 #none{
     width: 30%;
+    height:20%;
     background-color: rgb(65, 170, 189);
     color: aliceblue;
     text-align: center;
